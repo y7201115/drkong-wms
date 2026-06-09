@@ -1,0 +1,83 @@
+@charset "UTF-8";
+/* uni.scss - 全局样式变量 */
+/* 主题色 */
+/* 功能色 */
+/* 文字颜色 */
+/* 背景色 */
+/* 边框 */
+/* 间距 */
+/* 字号 */
+/* 阴影 */
+/* 状态色 */
+.login-page {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #1890ff 0%, #096dd9 100%);
+  display: flex;
+  flex-direction: column;
+  padding: 0 32px;
+}
+.login-header {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 80px;
+}
+.logo-area {
+  text-align: center;
+}
+.logo-text {
+  display: block;
+  font-size: 42px;
+  font-weight: bold;
+  color: #fff;
+  letter-spacing: 4px;
+}
+.logo-sub {
+  display: block;
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.8);
+  margin-top: 8px;
+}
+.login-form {
+  background: #fff;
+  border-radius: 16px;
+  padding: 32px 24px;
+  margin-bottom: 40px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.15);
+}
+.form-item {
+  margin-bottom: 20px;
+}
+.form-label {
+  display: block;
+  font-size: 14px;
+  color: #333;
+  margin-bottom: 8px;
+  font-weight: 500;
+}
+.form-input {
+  width: 100%;
+  height: 48px;
+  border: 1px solid #e8e8e8;
+  border-radius: 8px;
+  padding: 0 16px;
+  font-size: 15px;
+  box-sizing: border-box;
+  background: #fafafa;
+}
+.login-btn {
+  margin-top: 24px;
+  width: 100%;
+}
+.login-tip {
+  text-align: center;
+  margin-top: 16px;
+  font-size: 12px;
+}
+.login-footer {
+  text-align: center;
+  padding-bottom: 40px;
+  font-size: 12px;
+  color: rgba(255, 255, 255, 0.6);
+}

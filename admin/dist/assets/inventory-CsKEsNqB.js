@@ -1,0 +1,1 @@
+import{B as n}from"./index-AhAqfyYI.js";function r(t){return n({url:"/inventory/list",method:"get",params:t})}function u(t){return n({url:"/inventory/adjust",method:"post",data:t})}function e(t){return n({url:"/inventory/batch-inbound",method:"post",data:t})}function s(t){return n({url:"/inventory/batch-outbound",method:"post",data:t})}export{u as a,e as b,s as c,r as g};

@@ -1,0 +1,18 @@
+{
+  "buildCommand": "cd admin && npm install && npm run build",
+  "outputDirectory": "admin/dist",
+  "installCommand": "npm install",
+  "rewrites": [
+    {
+      "source": "/api/(.*)",
+      "destination": "/api/$1"
+    },
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
+    }
+  ],
+  "env": {
+    "VITE_API_BASE_URL": "@api_url"
+  }
+}

@@ -1,0 +1,87 @@
+{
+  "pages": [
+    {
+      "path": "pages/login/index",
+      "style": {
+        "navigationBarTitleText": "登录",
+        "navigationStyle": "custom"
+      }
+    },
+    {
+      "path": "pages/index/index",
+      "style": {
+        "navigationBarTitleText": "江博士仓库管理",
+        "navigationBarBackgroundColor": "#1890ff",
+        "navigationBarTextStyle": "white"
+      }
+    },
+    {
+      "path": "pages/inbound/index",
+      "style": {
+        "navigationBarTitleText": "扫码入库",
+        "navigationBarBackgroundColor": "#1890ff",
+        "navigationBarTextStyle": "white"
+      }
+    },
+    {
+      "path": "pages/outbound/index",
+      "style": {
+        "navigationBarTitleText": "扫码出库",
+        "navigationBarBackgroundColor": "#1890ff",
+        "navigationBarTextStyle": "white"
+      }
+    },
+    {
+      "path": "pages/inventory/index",
+      "style": {
+        "navigationBarTitleText": "库存查询",
+        "navigationBarBackgroundColor": "#1890ff",
+        "navigationBarTextStyle": "white",
+        "enablePullDownRefresh": true
+      }
+    },
+    {
+      "path": "pages/returns/index",
+      "style": {
+        "navigationBarTitleText": "退件处理",
+        "navigationBarBackgroundColor": "#1890ff",
+        "navigationBarTextStyle": "white"
+      }
+    },
+    {
+      "path": "pages/records/index",
+      "style": {
+        "navigationBarTitleText": "操作记录",
+        "navigationBarBackgroundColor": "#1890ff",
+        "navigationBarTextStyle": "white",
+        "enablePullDownRefresh": true
+      }
+    }
+  ],
+  "globalStyle": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "江博士仓库管理",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F5F7FA"
+  },
+  "tabBar": {
+    "color": "#999999",
+    "selectedColor": "#1890ff",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/inventory/index",
+        "text": "库存"
+      },
+      {
+        "pagePath": "pages/records/index",
+        "text": "记录"
+      }
+    ]
+  }
+}

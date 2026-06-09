@@ -1,0 +1,60 @@
+/* uni.scss - 全局样式变量 */
+
+/* 主题色 */
+$primary-color: #1890ff;
+$primary-color-light: #40a9ff;
+$primary-color-dark: #096dd9;
+$primary-color-bg: #e6f7ff;
+
+/* 功能色 */
+$success-color: #52c41a;
+$warning-color: #faad14;
+$error-color: #ff4d4f;
+$info-color: #1890ff;
+
+/* 文字颜色 */
+$text-color-primary: #262626;
+$text-color-regular: #595959;
+$text-color-secondary: #8c8c8c;
+$text-color-placeholder: #bfbfbf;
+$text-color-disabled: #d9d9d9;
+
+/* 背景色 */
+$bg-color: #f5f7fa;
+$bg-color-light: #fafafa;
+$bg-color-dark: #f0f0f0;
+$bg-color-card: #ffffff;
+
+/* 边框 */
+$border-color: #d9d9d9;
+$border-color-light: #f0f0f0;
+$border-radius-sm: 4px;
+$border-radius-md: 8px;
+$border-radius-lg: 12px;
+$border-radius-xl: 16px;
+
+/* 间距 */
+$spacing-xs: 4px;
+$spacing-sm: 8px;
+$spacing-md: 16px;
+$spacing-lg: 24px;
+$spacing-xl: 32px;
+
+/* 字号 */
+$font-size-xs: 11px;
+$font-size-sm: 12px;
+$font-size-md: 14px;
+$font-size-lg: 16px;
+$font-size-xl: 18px;
+$font-size-xxl: 24px;
+$font-size-xxxl: 32px;
+
+/* 阴影 */
+$shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.06);
+$shadow-md: 0 4px 12px rgba(0, 0, 0, 0.08);
+$shadow-lg: 0 8px 24px rgba(0, 0, 0, 0.12);
+
+/* 状态色 */
+$inbound-color: #1890ff;
+$outbound-color: #52c41a;
+$return-color: #faad14;

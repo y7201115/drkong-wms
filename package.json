@@ -1,0 +1,20 @@
+{
+  "name": "warehouse-management",
+  "version": "1.0.0",
+  "description": "江博士童鞋仓库管理系统 - 扫码出入库",
+  "private": true,
+  "workspaces": [
+    "server",
+    "miniapp",
+    "admin"
+  ],
+  "scripts": {
+    "dev:server": "cd server && npm run dev",
+    "dev:admin": "cd admin && npm run dev",
+    "dev": "concurrently \"npm run dev:server\" \"npm run dev:admin\"",
+    "install:all": "npm install && cd server && npm install && cd ../admin && npm install && cd ../miniapp && npm install"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}

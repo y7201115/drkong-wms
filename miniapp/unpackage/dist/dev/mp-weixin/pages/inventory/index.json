@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "库存查询",
+  "navigationBarBackgroundColor": "#1890ff",
+  "navigationBarTextStyle": "white",
+  "enablePullDownRefresh": true,
+  "usingComponents": {}
+}

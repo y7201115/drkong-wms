@@ -1,0 +1,64 @@
+@import './variables';
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+  font-family: 'Helvetica Neue', Helvetica, 'PingFang SC', 'Hiragino Sans GB',
+    'Microsoft YaHei', Arial, sans-serif;
+  font-size: 14px;
+  color: $text-primary;
+  background-color: $bg-color;
+  -webkit-font-smoothing: antialiased;
+}
+
+#app {
+  width: 100%;
+  height: 100%;
+}
+
+a {
+  color: $--color-primary;
+  text-decoration: none;
+}
+
+.page-card {
+  background: $bg-white;
+  border-radius: $border-radius-small;
+  box-shadow: $shadow-light;
+  padding: $spacing-lg;
+  margin-bottom: $spacing-lg;
+}
+
+.page-container {
+  padding: $spacing-lg;
+  overflow-y: auto;
+}
+
+.search-bar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: $spacing-md;
+  margin-bottom: $spacing-lg;
+  align-items: center;
+}
+
+.table-actions {
+  display: flex;
+  gap: $spacing-sm;
+}
+
+.stat-number {
+  font-size: 28px;
+  font-weight: bold;
+  color: $text-primary;
+}
+
+.status-tag {
+  font-size: 12px;
+}

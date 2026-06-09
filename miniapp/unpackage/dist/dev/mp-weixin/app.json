@@ -1,0 +1,44 @@
+{
+  "pages": [
+    "pages/login/index",
+    "pages/index/index",
+    "pages/inbound/index",
+    "pages/outbound/index",
+    "pages/inventory/index",
+    "pages/returns/index",
+    "pages/records/index"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "江博士仓库管理",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F5F7FA"
+  },
+  "tabBar": {
+    "color": "#999999",
+    "selectedColor": "#1890ff",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/inventory/index",
+        "text": "库存"
+      },
+      {
+        "pagePath": "pages/records/index",
+        "text": "记录"
+      }
+    ]
+  },
+  "permission": {
+    "scope.camera": {
+      "desc": "用于扫码功能"
+    }
+  },
+  "usingComponents": {}
+}
